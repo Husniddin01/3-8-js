@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
-    <title>js-starter</title>
+    <title>distance</title>
     
 </head>
 <body>
     <header class="header">
         <div class="container">
+            <h1 class="header__heading">Who is the first </h1>
           
         </div>
     </header>
@@ -18,7 +19,41 @@
      <main>
         <section class="hero">
             <div class=" container">
-         
+
+                <div   class="hero__container">
+                <form id="form" class="hero__form" action="https://echo.htmlacademy.ru/" method="get">
+                <label class="hero__label" for="Distance">Distance</label>
+                <input id="input" class="hero__input" type="text" placeholder="Please enter in kilometres!">
+                <button  id="btn" class="hero__button" type="submit">Convert</button>
+            </form>
+            <ul class="hero__list">
+                <li class="hero__item">
+                    <img class="hero__img" src="./images/walk..jpg" alt="piyoda yurish">
+                    <h2 class="hero__item--heading">Walk</h2>
+                    <p id="walk" class=" hero__item-text">0</p>
+               </li>
+   
+               <li class="hero__item">
+                   <img class="hero__img" src="./images/bike.jpg" alt=" velosapedda">
+                   <h2 class="hero__item--heading">Bike</h2>
+                   <p id="bike" class=" hero__item-text">0</p>
+               </li>
+   
+               <li class="hero__item">
+                   <img class="hero__img" src="./images/car.jpg" alt="mashinada">
+                   <h2 class="hero__item--heading">Car</h2>
+                   <p id="car" class=" hero__item-text">0</p>
+               </li>
+   
+               <li class="hero__item">
+                   <img class="hero__img" src="./images/plane.jpg" alt="samaliyotda">
+                   <h2 class="hero__item--heading">Plane</h2>
+                   <p id="plane" class=" hero__item-text">0</p>
+               </li>
+   
+   
+            </ul>
+        </div>
             </div>
         </section>
     </main> 
